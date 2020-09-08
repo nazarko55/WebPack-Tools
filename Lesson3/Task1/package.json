@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack ./src/indexx.js -p",
-    "watch": "webpack ./src/indexx.js -d --devtool eval-source-maps -w"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:scripts": "webpack  -p",
+    "watch:scripts": "webpack  -d --devtool eval-source-maps --watch"
   },
   "keywords": [],
   "author": "",
